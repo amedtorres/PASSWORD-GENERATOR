@@ -11,7 +11,7 @@
     </padding>
    <AnchorPane prefHeight="445.0" prefWidth="292.0">
       <children>
-         <Label layoutX="68.0" layoutY="14.0" text="PASWORD GENERATOR" textAlignment="CENTER">
+         <Label layoutX="68.0" layoutY="14.0" text="PASSWORD GENERATOR" textAlignment="CENTER">
           <font>
               <Font name="System Bold" size="16.0" />
           </font>
