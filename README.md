@@ -34,7 +34,7 @@ Este generador utiliza la clase `SecureRandom` de Java, que proporciona un gener
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/amedtorres/password-generator.git
+https://github.com/amedtorres/PASSWORD-GENERATOR.git
 ```
 
 2. Abre el proyecto en un IDE como IntelliJ IDEA o Eclipse:
@@ -45,7 +45,7 @@ git clone https://github.com/amedtorres/password-generator.git
 
 ![Password Generator](keygen.png)
 
-## 👤 Autor
+## Autor
 
 **Amed Torres**
 
