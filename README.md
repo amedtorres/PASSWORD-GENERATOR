@@ -45,7 +45,7 @@ git clone https://github.com/amedtorres/PASSWORD-GENERATOR.git
 
 ![Password Generator](key-gen.png)
 
-![Password Generator](contraseñagenerada.png)
+![Password Generator](password.png)
 
 
 ## Autor
