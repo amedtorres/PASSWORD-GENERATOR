@@ -1,0 +1,24 @@
+package org.example.paswordgenerator;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class GeneratorApplication extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(GeneratorApplication.class.getResource("generator-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 330, 500);
+        stage.setTitle("KEY GEN");
+        stage.setScene(scene);
+        stage.setResizable(true); // Permite redimensionar la ventana
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}

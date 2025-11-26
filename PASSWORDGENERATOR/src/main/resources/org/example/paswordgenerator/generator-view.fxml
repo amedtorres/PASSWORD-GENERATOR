@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="470.0" prefWidth="332.0" spacing="20.0" stylesheets="@stylePasswordGenerator.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.paswordgenerator.GeneratorController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="445.0" prefWidth="292.0">
+      <children>
+         <Label layoutX="68.0" layoutY="14.0" text="PASWORD GENERATOR" textAlignment="CENTER">
+          <font>
+              <Font name="System Bold" size="16.0" />
+          </font>
+         </Label>
+         <Slider fx:id="sliderLongitud" layoutX="52.0" layoutY="60.0" />
+         <Label layoutX="79.0" layoutY="101.0" text="MAXIMUM LENGTH 20" />
+         <RadioButton fx:id="rbMayusculas" layoutX="14.0" layoutY="151.0" mnemonicParsing="false" text="INCLUDE CAPITAL LETTERS" />
+         <RadioButton fx:id="rbMinusculas" layoutX="14.0" layoutY="189.0" mnemonicParsing="false" text="INCLUDE LOWERCASE" />
+         <RadioButton fx:id="rbNumeros" layoutX="14.0" layoutY="228.0" mnemonicParsing="false" text="INCLUDE NUMBERS" />
+         <RadioButton fx:id="rbSimbolos" layoutX="14.0" layoutY="266.0" mnemonicParsing="false" text="INCLUDE SYMBOLS" />
+         <TextArea fx:id="txtResultado" layoutX="17.0" layoutY="306.0" prefHeight="43.0" prefWidth="254.0" />
+         <Button fx:id="btnGenerarContraseña" layoutX="53.0" layoutY="369.0" mnemonicParsing="false" onAction="#generarContraseña" text="GENERATE PASWORD" />
+      </children></AnchorPane>
+</VBox>
