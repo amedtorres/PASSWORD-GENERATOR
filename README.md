@@ -41,7 +41,7 @@ https://github.com/amedtorres/PASSWORD-GENERATOR.git
 
 3. Espera a que Maven descargue las dependencias y ejecuta la aplicación
 
-## 🎨 Capturas de pantalla
+## Capturas de pantalla
 
 ![Password Generator](keygen.png)
 
