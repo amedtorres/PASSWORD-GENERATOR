@@ -23,6 +23,6 @@
          <RadioButton fx:id="rbNumeros" layoutX="14.0" layoutY="228.0" mnemonicParsing="false" text="INCLUDE NUMBERS" />
          <RadioButton fx:id="rbSimbolos" layoutX="14.0" layoutY="266.0" mnemonicParsing="false" text="INCLUDE SYMBOLS" />
          <TextArea fx:id="txtResultado" layoutX="17.0" layoutY="306.0" prefHeight="43.0" prefWidth="254.0" />
-         <Button fx:id="btnGenerarContraseña" layoutX="53.0" layoutY="369.0" mnemonicParsing="false" onAction="#generarContraseña" text="GENERATE PASWORD" />
+         <Button fx:id="btnGenerarContraseña" layoutX="53.0" layoutY="369.0" mnemonicParsing="false" onAction="#generarContraseña" text="GENERATE PASSWORD" />
       </children></AnchorPane>
 </VBox>
