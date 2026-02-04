@@ -54,4 +54,4 @@ git clone https://github.com/amedtorres/PASSWORD-GENERATOR.git
 
 ---
 
-⭐ Si te ha gustado este proyecto, ¡dale una estrella en GitHub! ;)
+Si te ha gustado este proyecto, ¡dale una estrella en GitHub! ;) ⭐
